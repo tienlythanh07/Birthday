@@ -1,7 +1,18 @@
+@font-face {
+  font-family: Aptos;
+  src: url(./fonts/Aptos.ttf);
+}
+
+@font-face {
+  font-family: AptosSemiBold;
+  src: url(./fonts/Aptos-SemiBold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Aptos;
 }
 
 body {
@@ -123,9 +134,10 @@ body {
 }
 
 .letter #destination {
+  font-family: AptosSemiBold;
   font-style: italic;
-  font-weight: semibold;
 }
+
 .letter .content {
   display: flex;
   flex-direction: column;
